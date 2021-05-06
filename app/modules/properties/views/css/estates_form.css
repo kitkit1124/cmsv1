@@ -1,0 +1,74 @@
+#estate_active_photo, #estate_active_thumb {
+	border-radius: 4px;
+	max-width: 400px;
+	height: 200px;
+	object-fit: cover;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
+#upload_button, #upload_button_thumb{
+ 	padding: 0px;
+ }
+
+.bottom_text{
+	margin-top: 40px;
+}
+
+p.note{ 
+	font-size: 11px;
+    background-color: #f4bd00;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+.hide{
+	display: none;
+}
+
+.clear_logo{
+position: absolute;
+margin-top: 10px;
+right: 25px;
+font-size: 30px;
+cursor: pointer;
+}
+
+#pac-input {
+    margin-top: 10px;
+    padding: 6px;
+    width: 60%;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .col-sm-9 {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+
+	.col-sm-3 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    #pac-input{
+    	left: 10px !important;
+    	margin-top: 53px;
+    	width: 92%;
+    }
+}

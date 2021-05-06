@@ -1,0 +1,10 @@
+{
+"config": {
+"vendor-dir": "app/third_party/vendors"
+},
+"require": {
+"vlucas/phpdotenv": "^2.5",
+"fzaninotto/faker": "^1.8",
+"defuse/php-encryption": "^2.2"
+}
+}

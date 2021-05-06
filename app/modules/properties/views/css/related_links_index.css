@@ -1,0 +1,28 @@
+.related_link_container i{
+	font-size:.7rem;
+	background-color:#f4bd00;
+	padding: 5px 10px;
+	width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button_add_related{
+    position: absolute;
+    top: 12px;
+    left: 250px;
+}
+
+.card-link label{
+	cursor: pointer;
+	color: #000;
+}
+
+.card{
+	margin-bottom: 3px;
+}
+
+.card-link{
+	display: block;
+	width: 100%;
+}
